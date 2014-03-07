@@ -16,7 +16,8 @@
     "methods": "0.0.1"
   },
   "devDependencies": {
-    "karma": ">=0.9"
+    "karma": ">=0.9",
+    "karma-browserify": "~0.1.0"
   },
   "private": true
 }

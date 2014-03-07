@@ -20,7 +20,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
@@ -81,9 +81,5 @@ module.exports = function(config) {
 
     // Add browserify to preprocessors
     preprocessors: {'test/*': ['browserify']},
-
-    // Not required if you've installed karma-browserify via npm.
-    plugins: ['karma-*', require('../')]
-
   });
 };
